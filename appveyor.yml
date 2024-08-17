@@ -9,7 +9,9 @@ environment:
   matrix:
   - src: official
   - src: zstd
-
+init:
+  - ps: iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
+  
 build_script:
 - cmd: >-
     7-zip-build.bat
@@ -24,3 +26,5 @@ skip_commits:
 #  allow_failures:
 #    - image: Visual Studio 2017
 #      src: zstd
+on_finish:
+  - ps: $blockRdp = $true; iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
