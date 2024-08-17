@@ -1,8 +1,8 @@
 version: 24.05-{build}
 image:
 - Visual Studio 2022
-- Visual Studio 2017
-- Visual Studio 2015
+#- Visual Studio 2017
+#- Visual Studio 2015
 skip_tags: true
 
 environment:
@@ -20,7 +20,7 @@ skip_commits:
     - '*.md'
     - '.gitingore'
 
-matrix:
-  allow_failures:
-    - image: Visual Studio 2017
-      src: zstd
+#matrix:
+#  allow_failures:
+#    - image: Visual Studio 2017
+#      src: zstd
