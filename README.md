@@ -9,7 +9,7 @@ Notice: Only executables depending on `7z.dll` can unpack nsis packages,
 `7zcl`, `7za`, `7zr` would not unpack nsis package, like official ones.
 
 ## Badges
-[![Build status](https://ci.appveyor.com/api/projects/status/6uusps0bn00akik9?svg=true)](https://ci.appveyor.com/project/myfreeer/7z-build-nsis)
+[![Build status](https://ci.appveyor.com/api/projects/status/v7gva8an6frmojed/branch/master?svg=true)](https://ci.appveyor.com/project/lsq/7z-build-nsis/branch/master)
 [![Downloads](https://img.shields.io/github/downloads/myfreeer/7z-build-nsis/total.svg)](https://github.com/myfreeer/7z-build-nsis/releases)
 [![Latest Release](https://img.shields.io/github/downloads/myfreeer/7z-build-nsis/latest/total.svg)](https://github.com/myfreeer/7z-build-nsis/releases/latest)
 [![Latest Release](https://img.shields.io/github/release/myfreeer/7z-build-nsis.svg)](https://github.com/myfreeer/7z-build-nsis/releases/latest)
